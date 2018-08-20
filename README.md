@@ -1,13 +1,13 @@
-# Antd Admin
+# Psyhub Admin
 
-[![React](https://img.shields.io/badge/react-^16.2.0-brightgreen.svg?style=flat-square)](https://github.com/facebook/react)
+<!-- [![React](https://img.shields.io/badge/react-^16.2.0-brightgreen.svg?style=flat-square)](https://github.com/facebook/react)
 [![Ant Design](https://img.shields.io/badge/ant--design-^3.0.3-yellowgreen.svg?style=flat-square)](https://github.com/ant-design/ant-design)
 [![dva](https://img.shields.io/badge/dva-^2.1.0-orange.svg?style=flat-square)](https://github.com/dvajs/dva)
 
 [![GitHub issues](https://img.shields.io/github/issues/zuiidea/antd-admin.svg?style=flat-square)](https://github.com/zuiidea/antd-admin)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/zuiidea/antd-admin/pulls)
 [![MIT](https://img.shields.io/dub/l/vibe-d.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) -->
 
 
 ## 特性
@@ -71,10 +71,10 @@ npm i 或者 yarn install
 
 ```bash
 npm run start
-打开 http://localhost:8050 #端口在package.json中cross-env后加上 PORT=8000指定
+打开 http://localhost:8050 #端口在package.json中cross-env后加上 PORT=8050指定
 ```
 
-构建：
+<!-- 构建：
 [详情](https://github.com/zuiidea/antd-admin/issues/269)
 
 代码检测：
@@ -90,27 +90,8 @@ npm run lint
 * 如何使用 mock.js 模拟接口，怎么使用线上接口？ [#348](https://github.com/zuiidea/antd-admin/issues/348)
 * 如何使用 Iconfont，如何使用本地的 svg 图标？ [#270](https://github.com/zuiidea/antd-admin/issues/270)
 * 怎么按版本打包，上线时不影响正在访问的用户？ [#449](https://github.com/zuiidea/antd-admin/issues/449)
-* windows 处理 CRLF？[参考](http://blog.csdn.net/lysc_forever/article/details/42835203)
+* windows 处理 CRLF？[参考](http://blog.csdn.net/lysc_forever/article/details/42835203) -->
 
   ```bash
   git config --global core.autocrlf false
   ```
-
-## 参考
-
-用户列表：<https://github.com/dvajs/dva/tree/master/examples/user-dashboard>
-dashboard 设计稿：<https://dribbble.com/shots/3108122-Dashboard-Admin> （已征得作者同意）
-
-## 截屏
-
-web
-
-![](https://user-images.githubusercontent.com/8142164/43032162-37db46e2-8ce3-11e8-9c7e-73a773bc0545.gif)
-
-移动
-
-![](https://user-images.githubusercontent.com/8142164/43032163-3a1f2838-8ce3-11e8-89c5-8e1ae077d34a.gif)
-
-效果图
-
-![](https://user-images.githubusercontent.com/8142164/43032165-5d151bae-8ce3-11e8-9bfd-8a121620ea78.jpg)
